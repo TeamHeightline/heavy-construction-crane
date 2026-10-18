@@ -1,0 +1,9 @@
+{
+  "name": "heavy-construction-crane",
+  "version": "0.3.0",
+  "title": "Heavy Construction Crane — Telescopic",
+  "author": "artel & Codex",
+  "factorio_version": "2.0",
+  "description": "A stationary construction crane with a rotating telescopic boom. Builds friendly building ghosts within 16 tiles from its 10-slot inventory, using 1.8 MW while working. Unlocked with automation science; assembled in assembling machines.",
+  "dependencies": ["base >= 2.0.0"]
+}

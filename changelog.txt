@@ -1,0 +1,14 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.3.0
+Date: 2026-10-18
+  Features:
+    - Automatic rotation and telescopic boom extension toward construction ghosts.
+    - Exactly 10 inventory slots, including higher-quality cranes.
+    - Circular 16-tile build range displayed on hover.
+    - 1.8 MW working power, no steady idle drain, electricity required for movement.
+    - Automation-science research and an assembling-machine-only recipe.
+    - Exact placement count and matching quality; safe rollback on failed revival.
+    - Target reservations for multiple cranes and retries for obstructed ghosts.
+    - Safe migration from old 80-slot containers with overflow spilled at the base.
+  Info:
+    - Static file/API review only; in-game testing is left to the user as requested.
