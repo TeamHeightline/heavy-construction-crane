@@ -1,6 +1,6 @@
 ---
 name: Bug report / Ошибка
-about: Report a problem with Telescopic Construction Crane
+about: Report a problem with Heavy Construction Crane V2
 title: ""
 labels: ""
 assignees: ""
@@ -8,11 +8,11 @@ assignees: ""
 
 **Версия Factorio / Factorio version:**
 
-**Версия мода / Mod version:**
+**Поколение крана и версия мода / Crane generation and mod version (e.g. V2 / 0.1.3):**
 
 **Другие моды / Other mods:**
 
-**Новое сохранение или обновление с 0.2.0 / New save or upgraded from 0.2.0:**
+**Новое сохранение или обновлённое / New save or upgraded save:**
 
 **Шаги воспроизведения / Steps to reproduce:**
 

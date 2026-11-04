@@ -1,0 +1,45 @@
+{
+  "mod_version": "0.1.3",
+  "crane_generation": "V2",
+  "factorio": "2.1.24",
+  "recipe": {
+    "steel-plate": 300,
+    "iron-gear-wheel": 200,
+    "electronic-circuit": 100,
+    "engine-unit": 40,
+    "stone-brick": 400
+  },
+  "research": {
+    "prerequisites": [
+      "railway",
+      "automation"
+    ],
+    "count": 150,
+    "science": [
+      "automation-science-pack",
+      "logistic-science-pack"
+    ],
+    "seconds_per_unit": 30
+  },
+  "checks": {
+    "railway_stage": {
+      "passed": true,
+      "space_age": false
+    },
+    "railway_stage_space_age": {
+      "passed": true,
+      "space_age": true
+    },
+    "railway_power_space_age": {
+      "passed": true,
+      "space_age": true
+    }
+  },
+  "graphics_files_verified": 56,
+  "graphics_identical_to_approved_v2": true,
+  "release_archive": {
+    "name": "heavy-tower-crane_0.1.3.zip",
+    "bytes": 313684004,
+    "sha256": "91ecf3feda04d8e248c63de071036587888fbaa8778f4d49955e0b02bfce5554"
+  }
+}

@@ -1,14 +1,37 @@
 ---------------------------------------------------------------------------------------------------
-Version: 0.3.0
-Date: 2026-10-18
+Version: 0.1.3
+Date: 2026-11-04
+  Balancing:
+    - Move Tower construction cranes after Railway: 150 automation and 150 logistic science packs.
+    - Use an expensive recipe with ingredients available at the first-trains stage: 300 steel plates, 200 iron gear wheels, 100 electronic circuits, 40 engine units and 400 stone bricks.
+    - Preserve the 120-second base assembly time.
+---------------------------------------------------------------------------------------------------
+Version: 0.1.2
+Date: 2026-11-04
+  Graphics:
+    - Use crane model v2: remove the external stairs, tower service platforms and base pipework.
+    - Render all 128 directions of the independent game layers again at native 4K with alpha.
+    - Update foundation, rotating assembly, trolley, hook, shadows, icon and thumbnail.
+    - Preserve the approved lighting, colour, scale, collision and 19.5-tile reach.
+---------------------------------------------------------------------------------------------------
+Version: 0.1.1
+Date: 2026-11-04
+  Graphics:
+    - Replace all layers with the approved 4K RGBA renders, preserving their native pixel resolution and colour.
+    - 128 angles, separate shadows, dynamic trolley, hook and ropes.
+  Changes:
+    - Match construction reach to the physical jib: 19.5 tiles.
+    - Match foundation collision and selection to the approved 12x12 tile scale.
+    - Clamp trolley reach when upgrading existing saves.
+    - Include a powered test-site scenario.
+---------------------------------------------------------------------------------------------------
+Version: 0.1.0
+Date: 2026-11-03
   Features:
-    - Automatic rotation and telescopic boom extension toward construction ghosts.
-    - Exactly 10 inventory slots, including higher-quality cranes.
-    - Circular 16-tile build range displayed on hover.
-    - 1.8 MW working power, no steady idle drain, electricity required for movement.
-    - Automation-science research and an assembling-machine-only recipe.
-    - Exact placement count and matching quality; safe rollback on failed revival.
-    - Target reservations for multiple cranes and retries for obstructed ghosts.
-    - Safe migration from old 80-slot containers with overflow spilled at the base.
-  Info:
-    - Static file/API review only; in-game testing is left to the user as requested.
+    - Added a standalone tower construction crane with a 64-tile construction radius and 80 inventory slots.
+    - Added a 38 by 34 tile foundation, a 24 MW drive and an assembler-only recipe and technology.
+    - Added a rotating jib with 128 rendered directions, a travelling trolley, a moving hook and cable lines.
+    - Added projected shadows, night lighting and an inventory control panel in Russian and English.
+    - Added target reservations, exact-quality item handling, refunds, pause and power-loss recovery.
+  Compatibility:
+    - Targets Factorio 2.1; verified with Factorio 2.1.24 base game and Space Age.

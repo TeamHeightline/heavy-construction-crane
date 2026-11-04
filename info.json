@@ -1,9 +1,11 @@
 {
-  "name": "heavy-construction-crane",
-  "version": "0.3.0",
-  "title": "Heavy Construction Crane — Telescopic",
+  "name": "heavy-tower-crane",
+  "version": "0.1.3",
+  "title": "Heavy Tower Construction Crane",
   "author": "artel & Codex",
-  "factorio_version": "2.0",
-  "description": "A stationary construction crane with a rotating telescopic boom. Builds friendly building ghosts within 16 tiles from its 10-slot inventory, using 1.8 MW while working. Unlocked with automation science; assembled in assembling machines.",
-  "dependencies": ["base >= 2.0.0"]
+  "factorio_version": "2.1",
+  "description": "Tower construction crane available after Railway with red and green science. Expensive early-game recipe using steel, gears, basic circuits, engine units and stone bricks. Crane v2 graphics: native 4K RGBA, 128 directions, 19.5-tile reach.",
+  "dependencies": [
+    "base >= 2.1.0"
+  ]
 }

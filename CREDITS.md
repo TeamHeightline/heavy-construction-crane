@@ -1,20 +1,11 @@
-# Происхождение мода и графики
+# Credits
 
-**Это 100% вайбкодинг через Codex (OpenAI): весь код мода создан с помощью ИИ под руководством автора. 3D-модели сгенерированы через Tripo AI.**
+Project owner: **artel**. Implementation, 3D assembly, render preparation and testing: **artel & Codex**.
 
-- **artel** — идея, требования, выбор и предоставление исходных моделей, решения по балансу и самостоятельная игровая проверка.
-- **Codex / OpenAI** — весь программный код мода, автоматизация подготовки сцены, сборка и документация. Это **100% вайбкодинг**.
-- **Tripo AI** — генерация исходных 3D-моделей и их материалов.
-- **Blender** — подготовка сцены, разделение конструкции на неподвижные и подвижные части, телескопический механизм, освещение и рендер спрайтов.
-- **Factorio / Wube Software** — игра и штатные прототипы, используемые модом по ссылкам `__base__` и `__core__`.
+The construction workflow and portions of the Lua implementation were adapted from [TeamHeightline/heavy-construction-crane](https://github.com/TeamHeightline/heavy-construction-crane), commit `e1b0f56`, version 0.3.0, by artel & Codex. This standalone tower crane uses its own mod and prototype names, a fixed-length rotating jib, a travelling trolley and a separate hoist. It does not require the original mod.
 
-## Исходные модели крана
+The tower-crane graphics were rendered in Blender from the assembled project scene. The scene contains 27 visible types of parts generated in Tripo from the project's image references and sketches, then arranged and prepared for use in Factorio. The supplied mod contains the resulting sprites, not the original GLB files or Blender scene.
 
-- `модель с короткой стрелой.usdz` — текстурированные части для основной конструкции и анимации.
-- `модель с выдвинутой стрелой.usdz` — отдельно импортированный референс выдвинутой стрелы.
+Factorio's engine, built-in sound, utility icons and inherited base-game prototype properties belong to Wube Software. These resources are referenced from the installed game and are not redistributed in this archive.
 
-Рабочий вылет получен четырьмя вложенными копиями решётчатой секции короткой модели; морфинг двух исходных сеток не выполняется. Итоговая графика содержит 32 направления и 17 положений выдвижения. Отдельная наземная тень пока не включена.
-
-В репозитории находятся необходимые игре спрайты и небольшие рендеры для документации. Большие исходные 3D-файлы, сцены Blender, локальные резервные копии и игровые сохранения не включены.
-
-**English:** all code is 100% vibe-coded with Codex (OpenAI), under artel's direction. Source 3D models and materials were generated with Tripo AI; sprites were prepared and rendered in Blender. This is an unofficial Factorio mod, not a Wube Software product.
+No additional licence grant for third-party material is implied by this credit file.
